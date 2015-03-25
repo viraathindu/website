@@ -3764,6 +3764,7 @@ html, body {
 body {
     margin: 0;
     font-family: 'Segoe UI Light', 'Helvetica', sans-serif;
+	background-color: #3F6184;
 }
 
 /*
@@ -4399,43 +4400,6 @@ Features Slider
 }
 
 /* ==========================================================================
-Features List
-========================================================================== */
-.features-list {
-    padding: 130px 0;
-}
-.features-list h1 {
-    margin: 0 0 10px 0;
-    padding: 0;
-    color: #24374b;
-    font-size: 20px;
-}
-.features-list p {
-    margin-bottom: 20px;
-    color: #778899;
-}
-.feature-content {
-    display: inline-block;
-    margin-left: 0;
-    width: 65%;
-}
-.feature-icon {
-    display: inline-block;
-    margin-right: 25px;
-    width: 90px;
-    height: 90px;
-    border: solid 2px #4e9ba3;
-    border-radius: 50%;
-    vertical-align: top;
-    text-align: center;
-    font-size: 25px;
-    line-height: 90px;
-}
-.feature-icon i {
-    color: #4e9ba3
-}
-
-/* ==========================================================================
 Blockquote
 ========================================================================== */
 blockquote {
@@ -4471,7 +4435,7 @@ blockquote .logo-quote {
 discourse Now
 ========================================================================== */
 .discourse {
-  padding: 130px 0;
+  padding: 130px 0 10px 0;
 }
 .discourse-bg {
     position: relative;
@@ -4493,6 +4457,35 @@ discourse Now
 }
 
 .discourse p {
+    color: #fff;
+}
+
+/* ==========================================================================
+terms Now
+========================================================================== */
+.terms {
+  padding: 130px 0 10px 0;
+}
+.terms-bg {
+    position: relative;
+    min-height: 600px;
+    /*background: url('../img/sadhoo.jpg') no-repeat center center;
+    background-size: cover;*/
+    background: #3F6184;
+}
+.terms-img {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.terms h1 {
+    margin: 50px 0 35px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.terms p {
     color: #fff;
 }
 
